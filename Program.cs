@@ -11,7 +11,7 @@ builder.Services.AddDbContext<HospitalManagementApi.Infrastructure.HospitalManag
     options=>options.UseSqlServer
         (
             connectionString: "server=(local);database=HospitalManagementDb;integrated security=sspi"
-        )
+        ) 
 );
 
 builder.Services.AddControllers();
